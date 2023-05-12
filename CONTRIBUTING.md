@@ -2,7 +2,7 @@
 
 ## Installation
 
-* `git clone <repository-url>`
+* `git clone git@github.com:BlueCutOfficial/ember-is-component.git`
 * `cd ember-is-component`
 * `yarn install`
 
