@@ -1,5 +1,32 @@
-{{page-title "TestApp"}}
+{{page-title "ember-is-component"}}
 
-<h2 id="title">Welcome to Ember</h2>
+<h2 id="title">Welcome to ember-is-component</h2>
+<p>An addon to check if a component is registered</p>
 
-{{outlet}}
+<pre>
+  <code>
+    \{{#unless (is-component "unknown-component")}}
+      "unknown-component" is not registered
+    \{{/unless}}
+  </code>
+</pre>
+<div>
+  {{#unless (is-component "unknown-component")}}
+    <p>"unknown-component" is not registered</p>
+  {{/unless}}
+</div>
+
+<br />
+
+<pre>
+  <code>
+    \{{#if (is-component "fake-component")}}
+      &lt;FakeComponent /&gt;
+    \{{/if}}
+  </code>
+</pre>
+<div>
+  {{#if (is-component "fake-component")}}
+    <FakeComponent />
+  {{/if}}
+</div>
