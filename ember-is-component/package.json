@@ -1,13 +1,22 @@
 {
   "name": "ember-is-component",
   "version": "0.0.0",
-  "description": "The default blueprint for Embroider v2 addons.",
+  "description": "Provides a helper to check if a component exists.",
   "keywords": [
-    "ember-addon"
+    "ember",
+    "emberjs",
+    "ember-addon",
+    "is-component",
+    "helper"
   ],
-  "repository": "",
+  "homepage": "https://github.com/BlueCutOfficial/ember-is-component",
+  "repository": "https://github.com/BlueCutOfficial/ember-is-component",
+  "bugs": "https://github.com/BlueCutOfficial/ember-is-component/issues",
   "license": "MIT",
-  "author": "",
+  "author": {
+    "name": "Marine Dunstetter",
+    "url": "https://github.com/BlueCutOfficial"
+  },
   "files": [
     "addon-main.cjs",
     "dist"
