@@ -1,6 +1,6 @@
 {
   "name": "ember-is-component",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Provides a helper to check if a component exists.",
   "keywords": [
     "ember",
